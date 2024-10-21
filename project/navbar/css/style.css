@@ -1,0 +1,76 @@
+body{
+	//background-color: white;
+}
+#outer{padding: 50px;
+	//height: 600px;
+	//width: 1000px;
+	background-color: white;
+	//border: 1px solid;
+	margin: 0px auto;
+}
+#frist{
+	//height:400px;
+	//width: 1000px;
+	background-color: black;
+}
+#non{
+height: 100px;
+width: 1000px;
+}
+
+*{
+	box-sizing: border-box;
+margin: 0;
+padding: 0;
+//background-color: black;
+}
+li, a, button{
+	font-family:"montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items:center ;
+	padding: 30px 10%;
+color: ;
+}
+p{
+	color: white;
+}
+.logo{
+	cursor: pointer;
+}
+.navLists{
+	list-style: none;
+
+}
+.navLists li{
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+.navLists li a{
+	transition: all 0.3s ease 0s;
+
+}
+.navLists li a:hover{
+color: #0088a9;
+}
+button{
+padding: 9px 25px;
+background-color: rgba(0, 136, 169, 1);
+border:none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+}
+button:hover{
+	background-color: rgba(0, 136, 169, 0.8);
+
+}
+

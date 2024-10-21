@@ -1,0 +1,24 @@
+<html><head><script type="text/javascript">
+function multi(){
+//window.alert("hiii");
+var a=document.getElementById("f").value;
+//window.alert(a);
+var b=document.getElementById("s").value;
+//window.alert(b);
+
+var multi=a*b;
+//window.alert(sum);
+//document.write(sum);
+document.getElementById("r").innerHTML=multi;
+
+}
+</script>
+</head>
+<body>
+frist no<input type="text" id="f"/><br>
+second no<input type="text" id="s"/><br>
+<input type="button" value="add" onclick="multi()"/>
+<h1 id="r"></h1>
+
+</body>
+</html>

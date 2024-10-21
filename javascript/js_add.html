@@ -1,0 +1,24 @@
+<html><head><script type="text/javascript">
+function sum(){
+//window.alert("hiii");
+var a=document.getElementById("f").value;
+//window.alert(a);
+var b=document.getElementById("s").value;
+//window.alert(b);
+
+var sum=parseInt(a)+parseInt(b);
+//window.alert(sum);
+//document.write(sum);
+document.getElementById("r").innerHTML=sum;
+
+}
+</script>
+</head>
+<body>
+frist no<input type="text" id="f"/><br>
+second no<input type="text" id="s"/><br>
+<input type="button" value="add" onclick="sum()"/>
+<h1 id="r"></h1>
+
+</body>
+</html>
